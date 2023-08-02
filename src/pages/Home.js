@@ -7,7 +7,7 @@ const HomePage = () => {
 
     const navigateHandler = () => {
         navigate('/products')
-  }
+    }
     return (
         <>
             <div>
@@ -15,9 +15,9 @@ const HomePage = () => {
                 <p>
                     Go To < Link to='/products'> the list of products.</Link></p>
 
-                    <p>
-                        <button onClick ={navigateHandler}>Navigate</button>
-                    </p>
+                <p>
+                    <button onClick={navigateHandler}>Navigate</button>
+                </p>
             </div>
         </>
     )
