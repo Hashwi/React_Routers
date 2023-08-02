@@ -13,7 +13,7 @@ const HomePage = () => {
             <div>
                 <h1>Home</h1>
                 <p>
-                    Go To < Link to='/products'> the list of products.</Link></p>
+                    Go To < Link to='products'> the list of products.</Link></p>
 
                 <p>
                     <button onClick={navigateHandler}>Navigate</button>
